@@ -1,0 +1,18 @@
+.custom-border {
+  border-style: dashed; /* Set the border style to dashed */
+  border-width: 2px; /* Set the border width to make the dashes larger */
+  border-color: rgb(181, 142, 142);
+}
+
+:root {
+  --font-primary: 'Courier Prime', monospace;
+  --font-secondary: 'Sen', sans-serif;
+}
+
+.font-primary {
+  font-family: var(--font-primary);
+}
+
+.font-secondary {
+  font-family: var(--font-secondary);
+}
