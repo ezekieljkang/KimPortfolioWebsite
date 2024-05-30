@@ -12,7 +12,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css"> <!-- Link to your styles.css file -->
+  <link rel="stylesheet" href="styles.css">
   <script src="https://cdn.tailwindcss.com"></script>
     <script>
       tailwind.config = {
@@ -41,14 +41,14 @@
 </head>
 <body class="grid grid-col-5 bg-customBGColor">
     <header class="flex justify-center border-b-4 border-customBorderColor pb-[2rem] pt-[2rem]">
-      <img src="/icons/logo.svg" width="112" height="112">
+      <img src="/icons/logo.png" width="112" height="112">
     </header>
-    <hero class="flex justify-center mt-[2rem]">
+    <section class="flex justify-center mt-[2rem]">
       <div class="ml-[13.25rem] pr-[3rem] border-r border-customBorderColor">
         <div>
           <img class="mb-[.75rem]" src="https://placehold.co/765x412">
           <div class="flex mb-[.5rem]">
-            <heading class="font-customSecondary text-customButtonColor font-bold text-xl">KIMBERLY CHIR</heading>
+            <h2 class="font-customSecondary text-customButtonColor font-bold text-[22px] leading-6">KIMBERLY CHIR</h2>
             <p class="font-bold text-xl font-customSecondary text-gray-400 pl-[.5rem]">CALIFORNIA, USA</p>
           </div>
           <p class="text-wrap text-left text-2xl">Designing digital products with media and publishing brands since 2021. An advocate for accessible design that can make an quiet impact to people’s everyday lives. </p>
@@ -56,66 +56,68 @@
       </div>
       <div class="pl-[3rem] mr-[13.25rem]">
         <div class="mb-[1.75rem]">
-          <img class="mb-[.5rem]" src="https://placehold.co/440x243" >
-          <heading class="font-customSecondary text-customButtonColor">DESIGN SYSTEM</heading>
+          <img class="mb-[.5rem]" src="https://placehold.co/440x230" >
+          <h2 class="font-customSecondary text-customButtonColor font-bold text-[22px] leading-6">DESIGN SYSTEM</h2>
           <p class="font-normal text-xl">An Efficient Design System Built And 4 Brands Websites Revamped All Within 5 Months</p>
           <p class="font-normal text-base underline">Read→</p>
         </div>
         <div>
-          <img class="mb-[.5rem]" src="https://placehold.co/440x243" >
-          <heading class="font-customSecondary text-customButtonColor">SITE REDESIGN</heading>
+          <img class="mb-[.5rem]" src="https://placehold.co/440x230" >
+          <h2 class="font-customSecondary text-customButtonColor font-bold text-lg">SITE REDESIGN</h2>
           <p class="font-normal text-xl">Site Redesigns Blending PMC's New And Old Design Standards, Walkthrough My Process</p>
           <p class="font-normal text-base underline">Read→</p>
         </div>
       </div>
-    </hero>
-    <cards class="bg-customCardBGColor flex justify-center gap-[2.25rem] py-[2.75rem] px-[13.25rem] mt-[3.75rem]">
-      <card>
+    </section>
+    <section class="bg-customCardBGColor flex justify-center gap-[2.25rem] py-[2.75rem] px-[13.25rem] mt-[3.75rem]">
+      <section>
         <img class="mb-[.75rem]" src="https://placehold.co/299x165" >
-        <heading class="font-customSecondary font-bold text-lg text-customButtonColor mb-[.5rem]">APP REDESIGN</heading>
+        <h2 class="font-customSecondary font-bold text-lg text-customButtonColor mb-[.5rem]">APP REDESIGN</h2>
         <p class="text-xl font-normal text-wrap">"Ambiguity" Within The Health Field, And Narrating The Journey Of Redesigning Apple Health</p>
-      </card>
-      <card>
+      </section>
+      <section>
         <img class="mb-[.75rem]" src="https://placehold.co/299x165" >
-        <heading class="font-customSecondary font-bold text-lg text-customButtonColor mb-[.5rem]">APP REDESIGN</heading>
+        <h2 class="font-customSecondary font-bold text-lg text-customButtonColor mb-[.5rem]">APP REDESIGN</h2>
         <p class="text-xl font-normal text-wrap">"Ambiguity" Within The Health Field, And Narrating The Journey Of Redesigning Apple Health</p>
-      </card><card>
+      </section>
+      <section>
         <img class="mb-[.75rem]" src="https://placehold.co/299x165" >
-        <heading class="font-customSecondary font-bold text-lg text-customButtonColor mb-[.5rem]">APP REDESIGN</heading>
+        <h2 class="font-customSecondary font-bold text-lg text-customButtonColor mb-[.5rem]">APP REDESIGN</h2>
         <p class="text-xl font-normal text-wrap">"Ambiguity" Within The Health Field, And Narrating The Journey Of Redesigning Apple Health</p>
-      </card><card>
+      </section>
+      <section>
         <img class="mb-[.75rem]" src="https://placehold.co/299x165" >
-        <heading class="font-customSecondary font-bold text-lg text-customButtonColor mb-[.5rem]">APP REDESIGN</heading>
+        <h2 class="font-customSecondary font-bold text-lg text-customButtonColor mb-[.5rem]">APP REDESIGN</h2>
         <p class="text-xl font-normal text-wrap">"Ambiguity" Within The Health Field, And Narrating The Journey Of Redesigning Apple Health</p>
-      </card>
-    </cards>
-    <content class="mt-[4rem] flex gap-[8.75rem]">
+      </section>
+    </section>
+    <section class="mt-[4rem] flex gap-[8.75rem]">
         <div class="ml-[13.25rem] basis-1/3 border-t-4 border-customBorderColor">
           <div class="mt-[6px] border-t border-customBorderColor">
             <h1 class="font-customSecondary grow text-[32px] font-bold mt-[1.5rem] mb-[1.5rem]">Passion Projects</h1>
-            <minicards>
-              <card class="flex pb-[1rem] border-b border-customBorderColor">
+            <section>
+              <section class="flex pb-[1rem] border-b border-customBorderColor">
                 <img src="https://placehold.co/120x120">
                 <div class="ml-[1rem]">
-                  <heading class="font-bold text-lg text-customButtonColor font-customSecondary">T-Shirts</heading>
+                  <h2 class="font-bold text-lg text-customButtonColor font-customSecondary">T-Shirts</h2>
                   <p class="font-normal text-xl text-wrap mt-[.5rem]">Designing t-shirts</p>
                 </div>
-              </card>
-              <card class="flex py-[1rem] border-b border-customBorderColor">
+              </section>
+              <section class="flex py-[1rem] border-b border-customBorderColor">
                 <img src="https://placehold.co/120x120">
                 <div class="ml-[1rem]">
-                  <heading class="font-bold text-lg text-customButtonColor font-customSecondary">STICKERS</heading>
+                  <h2 class="font-bold text-lg text-customButtonColor font-customSecondary">STICKERS</h2>
                   <p class="font-normal text-xl text-wrap mt-[.5rem]">Designing t-shirts</p>
                 </div>
-              </card>
-              <card class="flex py-[1rem]">
+              </section>
+              <section class="flex py-[1rem]">
                 <img src="https://placehold.co/120x120">
                 <div class="ml-[1rem]">
-                  <heading class="font-bold text-lg text-customButtonColor font-customSecondary">T-Shirts</heading>
+                  <h2 class="font-bold text-lg text-customButtonColor font-customSecondary">T-Shirts</h2>
                   <p class="font-normal text-xl text-wrap mt-[.5rem]">Designing t-shirts</p>
                 </div>
-              </card>
-            </minicards>
+              </section>
+            </section>
           </div>
         </div>
         <div class="mr-[13.25rem] basis-2/3 border-t-4 border-customBorderColor">
@@ -130,7 +132,7 @@
               </button>
             </div>
             <section class="mb-[6.75rem]">
-              <section-card>
+              <section>
                 <div class="flex justify-start gap-[.75rem]">
                   <img src="icons/cloudstar.svg">
                   <img src="icons/PMC.svg" width="53px" height="8px">
@@ -142,8 +144,8 @@
                     <p class="mt-[.5rem] text-xs font-bold">PRODUCT & DIGITAL DESIGNER | September 2021 – April 2024</p>
                   </div>
                 </div>
-              </section-card>
-              <section-card>
+              </section>
+              <section>
                 <div class="flex justify-start gap-[.75rem] mt-[1rem]">
                   <img src="icons/cloudstar.svg">
                   <img src="icons/resquared.svg" width="20px" height="20px">
@@ -155,8 +157,8 @@
                     <p class="mt-[.5rem] text-xs font-bold">PRODUCT DESIGNER | June 2021 – July 2021</p>
                   </div>
                 </div>
-              </section-card>
-              <section-card>
+              </section>
+              <section>
                 <div class="flex justify-start gap-[.75rem] mt-[1rem]">
                   <img src="icons/cloudstar.svg">
                   <img src="icons/sparknerd.svg" width="28px" height="28px">
@@ -168,8 +170,8 @@
                     <p class="mt-[.5rem] text-xs font-bold">PRODUCT & DIGITAL DESIGNER | September 2021 – April 2024</p>
                   </div>
                 </div>
-              </section-card>
-              <section-card>
+              </section>
+              <section->
                 <div class="flex justify-start gap-[.75rem] mt-[1rem]">
                   <img src="icons/cloudstar.svg">
                   <p class="font-normal text-[22px]">Freelance</p>
@@ -180,11 +182,11 @@
                     <p class="mt-[.5rem] text-xs font-bold">UX/UI DESIGNER | March 2020 – June 2021</p>
                   </div>
                 </div>
-              </section-card>
+              </section->
             </section>
           </div>
         </div>
-    </content>
+    </section>
     <footer class="flex justify-center bg-customButtonColor py-[2.5rem]">
       <div>
         <img src="/icons/logo2.png" width="131" height="131" alt="">
