@@ -1,8 +1,15 @@
-.custom-border {
-  border-style: dashed; /* Set the border style to dashed */
-  border-width: 2px; /* Set the border width to make the dashes larger */
-  border-color: rgb(181, 142, 142);
-}
+.custom-border::before {
+    content: "";
+    width: 1px;
+    position: absolute;
+    display: inline;
+    top: -10px;
+    height: 120%;
+    margin-top: 0;
+    background-image: linear-gradient(to top, #B58E8E 0%, #B58E8E 55%, transparent 25%);
+    background-size: 1px 8px;
+    background-repeat: repeat-y;
+  }
 
 :root {
   --font-primary: 'Courier Prime', monospace;
