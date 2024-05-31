@@ -1,25 +1,46 @@
 .custom-border::before {
-    content: "";
-    width: 1px;
-    position: absolute;
-    display: inline;
-    top: -10px;
-    height: 120%;
-    margin-top: 0;
-    background-image: linear-gradient(to top, #B58E8E 0%, #B58E8E 55%, transparent 25%);
-    background-size: 1px 8px;
-    background-repeat: repeat-y;
-  }
+  content: "";
+  width: 1px;
+  position: absolute;
+  display: inline;
+  top: -10px;
+  height: 120%;
+  margin-top: 0;
+  background-image: linear-gradient(to top, #B58E8E 0%, #B58E8E 55%, transparent 25%);
+  background-size: 1px 8px;
+  background-repeat: repeat-y;
+}
+
+.custom-border2::before {
+  content: "";
+  width: 1px;
+  position: absolute;
+  display: inline;
+  top: -10px;
+  height: 110%;
+  margin-top: 0;
+  background-image: linear-gradient(to top, #B58E8E 0%, #B58E8E 55%, transparent 25%);
+  background-size: 1px 8px;
+  background-repeat: repeat-y;
+}
 
 :root {
-  --font-primary: 'Courier Prime', monospace;
-  --font-secondary: 'Sen', sans-serif;
+--font-primary: 'Courier Prime', monospace;
+--font-secondary: 'Sen', sans-serif;
+}
+
+body, html {
+width: 100vw;
+/* height: 100vh; */
+margin: 0;
+padding: 0;
+box-sizing: border-box;
 }
 
 .font-primary {
-  font-family: var(--font-primary);
+font-family: var(--font-primary);
 }
 
 .font-secondary {
-  font-family: var(--font-secondary);
+font-family: var(--font-secondary);
 }
